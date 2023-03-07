@@ -46,6 +46,6 @@ export const updateActorThunk = (id, actorParams) => dispatch => {
 }
 
 
-export const { setActors, addActor, deleteActor, updateActor } = actorsSlice.actions;
+export const { setActors, addActor, deleteActor, updateActor } = actorsSlice.actions
 
 export default actorsSlice.reducer;
